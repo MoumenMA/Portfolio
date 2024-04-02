@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --body-font: "Poppins", sans-serif;
+  --font-normal: 400;
+  --font-meduim: 500;
+  --font-semi-bold: 600;
+  --myBlack: #0d1b2a;
+  --myBlue: #415a77;
+  --myWhite: #e0e1dd;
+}
+.contact-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--body-font);
+  color: var(--myBlack);
+  text-decoration: underline var(--myBlue) 4px;
+  font-weight: var(--font-semi-bold);
+  font-size: 34px;
+  margin-top: 60px;
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--body-font);
+}
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-container img {
+  width: 45%;
+
+  margin-left: 30px;
+  animation: img__animate 4s ease-in-out infinite 4s;
+}
+@keyframes img__animate {
+  75% {
+    transform: translateY(20px);
+  }
+  0% {
+    transform: translateY(0);
+  }
+}
+.formContainer {
+  flex: 1;
+
+  width: 20%;
+  margin: 30px 0 0 10px;
+  padding: 20px 30px 10px 78px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    input,
+    textarea {
+      padding: 20px;
+      background-color: transparent;
+      border: 2px solid var(--myBlack);
+      color: black;
+      border-radius: 5px;
+      max-width: 550px;
+    }
+    button {
+      padding: 10px;
+      background-color: #ffffff;
+      border: 2px solid var(--myBlack);
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: var(--font-semi-bold);
+      max-width: 120px;
+      color: #ffffff;
+      background-color: var(--myBlack);
+    }
+    button:hover {
+      color: #ffffff;
+      background-color: var(--myBlack);
+    }
+  }
+}

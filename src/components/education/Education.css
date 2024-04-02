@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --body-font: "Poppins", sans-serif;
+  --font-normal: 400;
+  --font-meduim: 500;
+  --font-semi-bold: 600;
+  --myBlack: #0d1b2a;
+  --myBlue: #415a77;
+  --myWhite: #e0e1dd;
+}
+
+.title-education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--body-font);
+  color: var(--myBlack);
+  text-decoration: underline var(--myBlue) 4px;
+  font-weight: var(--font-semi-bold);
+  font-size: 34px;
+  margin-top: 160px;
+}
+.edu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.img-edu {
+  width: 400px;
+  margin: 20px 40px 20px 0px;
+  height: auto;
+}
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.timeline-info {
+  display: flex;
+  gap: 12px;
+  margin-right: 20px;
+}
+.timeline-info i {
+  font-size: 30px;
+  color: var(--myBlack);
+}
+.timeline-info span {
+  font-size: 20px;
+  font-family: var(--body-font);
+  font-weight: var(--font-meduim);
+  color: var(--myBlack);
+}
+.round-container {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid var(--myBlack);
+}
+.round {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  margin: 15%;
+  background-color: var(--myBlue);
+}
+.timeline-content {
+  margin-top: 36px;
+
+  text-align: start;
+  justify-content: center;
+}
+.timeline-content h3 {
+  font-family: var(--body-font);
+  font-size: 18px;
+  color: var(--myBlack);
+}
+.timeline-content p {
+  font-family: var(--body-font);
+  font-size: 17px;
+}

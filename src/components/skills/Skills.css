@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --body-font: "Poppins", sans-serif;
+  --font-normal: 400;
+  --font-meduim: 500;
+  --font-semi-bold: 600;
+  --myBlack: #0d1b2a;
+  --myBlue: #415a77;
+  --myWhite: #e0e1dd;
+}
+.skills {
+  margin: 170px 65px;
+  padding-bottom: 40px;
+}
+
+.skills-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--body-font);
+  color: var(--myBlack);
+  font-weight: var(--font-semi-bold);
+  font-size: 34px;
+  margin-top: 70px;
+  text-decoration: underline var(--myBlue) 4px;
+}
+.skills-disp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 74px;
+}
+
+.tools h5 {
+  color: var(--myBlue);
+  font-family: var(--body-font);
+  font-weight: var(--font-semi-bold);
+  font-size: 23px;
+  text-decoration: underline var(--myBlack) 3px;
+}
+.tools .ftools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44px;
+  margin-top: -22px;
+}

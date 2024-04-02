@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+:root {
+  --body-font: "Poppins", sans-serif;
+  --font-normal: 400;
+  --font-meduim: 500;
+  --font-semi-bold: 600;
+  --myBlack: #0d1b2a;
+  --myBlue: #415a77;
+  --myWhite: #e0e1dd;
+}
+* {
+  background-color: #f2f5fa;
+}
+.project-title {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--body-font);
+  color: var(--myBlue);
+  font-weight: var(--font-semi-bold);
+  font-size: 34px;
+  text-decoration: underline var(--myBlack) 4px;
+  margin: 70px 65px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 65px;
+ 
+  gap: 45px;
+  scroll-behavior: smooth;
+}
+article .img {
+  border: 4px solid var(--myBlack);
+  border-radius: 10px;
+}
+
+.icons a {
+  padding-left: 10px;
+  gap: 20px;
+  color: var(--myBlack);
+  font-size: 28px;
+}
+.title-prjct {
+  
+  font-family: var(--body-font);
+  font-size: 22px;
+  color: var(--myBlue);
+}
+.sub-title {
+  font-family: var(--body-font);
+  font-weight: var(--font-normal);
+  
+}
+.icons a :hover {
+  gap: 10px;
+  color: var(--myBlue);
+  cursor: pointer;
+}
+
